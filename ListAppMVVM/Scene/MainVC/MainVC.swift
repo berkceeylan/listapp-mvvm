@@ -32,7 +32,7 @@ class MainVC: UIViewController {
         }
     }
 }
-
+//MARK: - T UI Değişimi
 extension MainVC: MainViewModelDelegate {
     func handleOutput(_ output: MainViewmodelOutput) {
         switch output {
