@@ -14,7 +14,7 @@ class MainVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Main"
+        self.title = "User List"
         view.backgroundColor = .systemBackground
         setupUI()
         viewModel?.delegate = self
